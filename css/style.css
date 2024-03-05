@@ -22,8 +22,20 @@ body, html {
   background-repeat: no-repeat;
 }
 
-/* Estilos adicionais para o conteúdo do site */
-.content {
-  height: 200vh; /* Ajuste essa altura conforme o conteúdo do seu site */
-  background-color: #f0f0f0; /* Cor de fundo para diferenciar o conteúdo */
+
+.owl-carousel-caption{
+  position: relative;
+  text-transform: capitalize;
+  text-align: center;
+  top: 150px;
+  font-size: 43px;
+  color: white;
+}
+
+#logo-header{
+  width: 140px;
+  position: absolute;
+  top: 30px;
+  left: 5vw;
+  z-index: 10;
 }
