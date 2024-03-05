@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+}
+
+.owl-carousel {
+  height: 100vh; /* Define a altura inicial do carrossel como 100% da altura da janela do navegador */
+  overflow: hidden; /* Oculta o conteúdo que extrapola a altura do carrossel */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* Ou space-between, dependendo da sua preferência */
+  align-items: center; /* Alinha os itens no centro verticalmente */
+}
+
+.bg-carousel {  
+  min-height: 100vh; /* Define uma altura mínima para os itens do carrossel */
+  width: 100%; /* Garante que o item do carrossel tenha 100% da largura */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Estilos adicionais para o conteúdo do site */
+.content {
+  height: 200vh; /* Ajuste essa altura conforme o conteúdo do seu site */
+  background-color: #f0f0f0; /* Cor de fundo para diferenciar o conteúdo */
+}
