@@ -1,3 +1,11 @@
+:root{
+  --t1: 'Gilda Display';
+  --t2: 'Barlow Condensed';
+  --texto: 'Barlow';
+
+
+}
+
 body, html {
   margin: 0;
   padding: 0;
