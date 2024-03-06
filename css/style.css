@@ -2,9 +2,26 @@
   --t1: 'Gilda Display';
   --t2: 'Barlow Condensed';
   --texto: 'Barlow';
-
+  --cor-titulo: rgb(255, 255, 255);
 
 }
+
+.titulo1, .titulo2{
+  color: var(--cor-titulo);
+  text-transform: uppercase;
+}
+
+.titulo2{
+  font-size: 28px;
+  font-family: var(--t2);
+}
+
+.titulo1{
+  font-size: 50px;
+  font-family: var(--t1);
+  font-weight: lighter;
+}
+
 
 body, html {
   margin: 0;
@@ -14,33 +31,7 @@ body, html {
   
 }
 
-.owl-carousel {
-  height: 100vh; /* Define a altura inicial do carrossel como 100% da altura da janela do navegador */
-  overflow: hidden; /* Oculta o conteúdo que extrapola a altura do carrossel */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around; /* Ou space-between, dependendo da sua preferência */
-  align-items: center; /* Alinha os itens no centro verticalmente */
-}
-
-.bg-carousel {  
-  min-height: 100vh; /* Define uma altura mínima para os itens do carrossel */
-  width: 100%; /* Garante que o item do carrossel tenha 100% da largura */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-.owl-carousel-caption{
-  position: relative;
-  text-transform: capitalize;
-  text-align: center;
-  top: 150px;
-  font-size: 43px;
-  color: white;
-}
-
+/*Logotipo*/
 #logo-header{
   width: 140px;
   position: absolute;
@@ -48,3 +39,51 @@ body, html {
   left: 5vw;
   z-index: 10;
 }
+
+/*Owl Carousel*/
+
+.owl-carousel {
+  height: 100vh;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  align-items: center; 
+  
+}
+
+.bg-carousel {  
+  min-height: 100vh; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.bg-carousel::before {  /* ::before ira executar isto antes do .bg-carousel*/
+  content: ''; /* Cria um conteudo vazio */
+  background-color: rgba(0, 0, 0, 0.2);
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+
+.owl-carousel-caption{
+  position: relative;
+  text-align: center;
+  top: 180px;
+  width: 850px;
+  margin: auto;
+}
+
+
+/*sdfsdfsdf*/
+
+
+
+
