@@ -82,8 +82,15 @@ body, html {
 }
 
 
-/*sdfsdfsdf*/
 
+/*sdfsdfsdf*/
+#dv-reserva{
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  top: 600px;
+  justify-content: center;
+}
 
 
 
