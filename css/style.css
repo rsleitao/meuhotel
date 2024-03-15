@@ -4,6 +4,14 @@
   --texto: 'Barlow';
   --cor-titulo: rgb(255, 255, 255);
 
+  --bg-cinza1:#1b1b1b;
+  --bg-cinza2:#202020;
+  --cor-texto:rgba(255,255,255,0.5);
+
+}
+
+p{
+  color: var(--cor-texto);
 }
 
 .titulo1, .titulo2{
@@ -27,7 +35,7 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #1b1b1b;
+  background-color: var(--bg-cinza1);
   
 }
 
@@ -93,4 +101,18 @@ body, html {
 }
 
 
+.div-cx{
+  background-color: var(--bg-cinza2);
+}
 
+.div-cx img{
+  width: 100% !important;
+  height: auto !important;
+  
+  max-width: 261px!important;
+  
+}
+
+.row-max{
+  max-width: 1140px;
+}
