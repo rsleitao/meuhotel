@@ -110,9 +110,24 @@ body, html {
   height: auto !important;
   
   max-width: 261px!important;
-  
 }
 
 .row-max{
   max-width: 1140px;
 }
+
+.div-quartos img{
+  width: 100% !important;
+  height: auto !important;
+  
+  min-width: 216px!important;
+
+}
+
+.img-quartos{
+  text-align: center;
+  padding: 15px;
+  
+}
+
+
