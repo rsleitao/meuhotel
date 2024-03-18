@@ -3,6 +3,7 @@
   --t2: 'Barlow Condensed';
   --texto: 'Barlow';
   --cor-titulo: rgb(255, 255, 255);
+  --cor-titulo2: #aa8453;
 
   --bg-cinza1:#1b1b1b;
   --bg-cinza2:#202020;
@@ -15,16 +16,18 @@ p{
 }
 
 .titulo1, .titulo2{
-  color: var(--cor-titulo);
   text-transform: uppercase;
+  letter-spacing: 7px;
 }
 
 .titulo2{
-  font-size: 28px;
+  color: var(--cor-titulo2);
+  font-size: 20px;
   font-family: var(--t2);
 }
 
 .titulo1{
+  color: var(--cor-titulo);
   font-size: 50px;
   font-family: var(--t1);
   font-weight: lighter;
@@ -65,6 +68,7 @@ body, html {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -85,7 +89,8 @@ body, html {
   position: relative;
   text-align: center;
   top: 180px;
-  width: 850px;
+  max-width: 850px;
+  width: 80vw;
   margin: auto;
 }
 
@@ -131,3 +136,33 @@ body, html {
 }
 
 
+@media screen and (max-width:991px) {
+  .titulo2{
+    font-size: 26px; 
+    transform: font-size 1s;
+  }
+  
+  .titulo1{
+    font-size: 35px; 
+  }
+}
+
+@media screen and (max-width:767px) {
+  .titulo2{
+    font-size: 22px; 
+  }
+  
+  .titulo1{
+    font-size: 33px; 
+  }
+}
+
+@media screen and (max-width:575px) {
+  .titulo2{
+    font-size: 20px; 
+  }
+  
+  .titulo1{
+    font-size: 30px; 
+  }
+}
