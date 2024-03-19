@@ -7,3 +7,14 @@ owl.owlCarousel({
     autoplayTimeout:5000,
     autoplayHoverPause:false
 });
+
+
+var owl1 = $('.owl-carousel1');
+owl1.owlCarousel({
+    items:2,
+    loop:true,
+    margin:0,
+    autoplay:false,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false
+});

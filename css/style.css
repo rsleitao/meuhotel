@@ -135,6 +135,23 @@ body, html {
   
 }
 
+.div-video{
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+
+
+
+.card-extra{
+  border: 1px solid red;
+  width: 250px !important;
+  height: 350px;
+  background-color: wheat;
+}
 
 @media screen and (max-width:991px) {
   .titulo2{
